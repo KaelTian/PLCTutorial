@@ -1,4 +1,6 @@
-# PLC 监控面板 — 技术总结
+# PLC 监控面板 — 技术架构
+
+> GitHub: https://github.com/KaelTian/PLCTutorial
 
 ## 项目结构
 
@@ -36,9 +38,9 @@ PLCTutorial/
         │   │   ├── PlcConnectionCard.vue  # PLC 连接卡片组件
         │   │   └── PlcDataPointItem.vue   # 单个点位数据显示组件
         │   ├── composables/
-        │   │   ├── usePlcApi.ts           # REST API 封装
-        │   │   └── useSignalR.ts          # SignalR 实时通信封装
-        │   ├── types/plc.ts               # TypeScript 类型定义
+        │   │   ├── usePlcApi.cs           # REST API 封装
+        │   │   └── useSignalR.cs          # SignalR 实时通信封装
+        │   ├── types/plc.cs               # TypeScript 类型定义
         │   └── App.vue                    # 根组件
         └── vite.config.ts                 # 开发代理配置
 ```
