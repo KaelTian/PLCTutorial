@@ -1,0 +1,6 @@
+@PlcMonitor.Api_HostAddress = http://localhost:5020
+
+GET {{PlcMonitor.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
